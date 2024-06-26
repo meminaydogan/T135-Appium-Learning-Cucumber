@@ -15,6 +15,7 @@ import java.time.Duration;
 import java.util.Date;
 
 public class ReusableMethods {
+
     public static void tiklamaMethodu(int xKoordinati,int yKoordinati,int beklemeSuresi ) throws InterruptedException {
         TouchAction action=new TouchAction<>(Driver.getAndroidDriver());
         action.press(PointOption.point(xKoordinati,yKoordinati))
